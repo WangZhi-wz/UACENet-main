@@ -24,18 +24,20 @@ test
 ```
 
 ### 1. set up parameters
+
 ```bash
 opt.py
+```
 
 ### 2. Training
 
 ```bash
-python train.py 
+train.py 
 ```
 
 ###  3. Testing
 
 ```bash
-python test.py
+test.py
 
 
