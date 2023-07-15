@@ -1,4 +1,4 @@
-##  Enhanced U-Net: A Feature Enhancement Network for Polyp Segmentation
+##  UACENet: Uncertain area attention and cross-image context extraction network for polyp segmentation
 
 ### Requirements
 
@@ -13,25 +13,29 @@
 ```
 $ data
 train
-├── Images
-├── Masks
+├── images
+├── masks
 valid
-├── Images
-├── Masks
+├── images
+├── masks
 test
-├── Images
-├── Masks
+├── images
+├── masks
 ```
 
-### 1. Training
+### 1. set up parameters
+```bash
+opt.py
+
+### 2. Training
 
 ```bash
-python train.py  --mode train  --train_data_dir /path-to-train_data  --valid_data_dir  /path-to-valid_data
+python train.py 
 ```
 
-###  2. Testing
+###  3. Testing
 
 ```bash
-python test.py  --mode test  --load_ckpt checkpoint --test_data_dir  /path-to-test_data
+python test.py
 
 
