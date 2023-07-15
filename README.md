@@ -1,6 +1,6 @@
 ##  UACENet: Uncertain area attention and cross-image context extraction network for polyp segmentation
 
-### Data
+### Paper Information
 ```
 Wang Z, Gao F, Yu L, et al. UACENet: Uncertain area attention and cross‐image context extraction network for polyp segmentation[J]. International Journal of Imaging Systems and Technology.
 
